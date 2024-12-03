@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - kali-linux" type="wsl" uuid="08482f5e-a6a1-430d-b3b5-41e7bb6be3e3">
+        <config>
+          <option name="distributionMsId" value="kali-linux" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/tmp/tmp.0rshz4GaYa&#10;, stderr=}/crawl" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/home/zks/go" />
+            <option name="goRoot" value="/usr/bin/go" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
