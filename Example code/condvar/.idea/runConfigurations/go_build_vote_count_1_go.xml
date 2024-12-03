@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build vote-count-1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <module name="condvar" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-race" />
+    <kind value="FILE" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/vote-count-1.go" />
+    <method v="2" />
+  </configuration>
+</component>
