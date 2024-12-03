@@ -1,0 +1,4 @@
+*** Starting crash test.
+--- crash output is not the same as mr-correct-crash.txt
+--- crash test: FAIL
+*** FAILED SOME TESTS

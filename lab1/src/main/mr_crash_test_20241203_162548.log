@@ -1,0 +1,1941 @@
+*** Starting crash test.
+error removing sockname2024/12/03 16:26:03 New worker registered: worker-1733214363175010930-449
+2024/12/03 16:26:03 New worker registered: worker-1733214363175067610-1089
+2024/12/03 16:26:03 New worker registered: worker-1733214363174998916-4693
+2024/12/03 16:26:03 New worker registered: worker-1733214363175107526-8365
+2024/12/03 16:26:03 Assigning Map task 0 to worker worker-1733214363175010930-449
+2024/12/03 16:26:03 Assigning Map task 1 to worker worker-1733214363174998916-4693
+2024/12/03 16:26:03 Assigning Map task 2 to worker worker-1733214363175067610-1089
+2024/12/03 16:26:03 Assigning Map task 3 to worker worker-1733214363175107526-8365
+2024/12/03 16:26:03 worker worker-1733214363175010930-449 do map task 0 (TaskType: Map, InputFile: ../pg-being_ernest.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:03 worker worker-1733214363174998916-4693 do map task 1 (TaskType: Map, InputFile: ../pg-dorian_gray.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:03 worker worker-1733214363175067610-1089 do map task 2 (TaskType: Map, InputFile: ../pg-frankenstein.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:03 worker worker-1733214363175107526-8365 do map task 3 (TaskType: Map, InputFile: ../pg-grimm.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:04 New worker registered: worker-1733214364188202854-9091
+2024/12/03 16:26:04 New worker registered: worker-1733214364188202761-9098
+2024/12/03 16:26:04 Assigning Map task 4 to worker worker-1733214364188202854-9091
+2024/12/03 16:26:04 Assigning Map task 5 to worker worker-1733214364188202761-9098
+2024/12/03 16:26:04 worker worker-1733214364188202854-9091 do map task 4 (TaskType: Map, InputFile: ../pg-huckleberry_finn.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:04 worker worker-1733214364188202761-9098 do map task 5 (TaskType: Map, InputFile: ../pg-metamorphosis.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:05 New worker registered: worker-1733214365201269265-6114
+2024/12/03 16:26:05 Assigning Map task 6 to worker worker-1733214365201269265-6114
+2024/12/03 16:26:05 worker worker-1733214365201269265-6114 do map task 6 (TaskType: Map, InputFile: ../pg-sherlock_holmes.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:05 Worker worker-1733214365201269265-6114 report task, get the mu.lock
+2024/12/03 16:26:05 Worker worker-1733214365201269265-6114 completed Map task 6
+2024/12/03 16:26:05 Assigning Map task 7 to worker worker-1733214365201269265-6114
+2024/12/03 16:26:05 worker worker-1733214365201269265-6114 do map task 7 (TaskType: Map, InputFile: ../pg-tom_sawyer.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:05 Worker worker-1733214365201269265-6114 report task, get the mu.lock
+2024/12/03 16:26:05 Worker worker-1733214365201269265-6114 completed Map task 7
+2024/12/03 16:26:05 ===== Channel status before timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 ===== Channel status after timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 Worker worker-1733214363175107526-8365 report task, get the mu.lock
+2024/12/03 16:26:05 Worker worker-1733214363175107526-8365 completed Map task 3
+2024/12/03 16:26:05 ===== Channel status before timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 ===== Channel status after timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 ===== Channel status before timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 ===== Channel status after timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 ===== Channel status before timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 ===== Channel status after timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 Worker worker-1733214364188202761-9098 report task, get the mu.lock
+2024/12/03 16:26:05 Worker worker-1733214364188202761-9098 completed Map task 5
+2024/12/03 16:26:05 ===== Channel status before timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:05 ===== Channel status after timeout check =====
+2024/12/03 16:26:05 Current channel length: 0
+2024/12/03 16:26:05 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status before timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status after timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status before timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status after timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status before timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status after timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 Worker worker-1733214363175067610-1089 report task, get the mu.lock
+2024/12/03 16:26:06 Worker worker-1733214363175067610-1089 completed Map task 2
+2024/12/03 16:26:06 ===== Channel status before timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status after timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status before timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:06 ===== Channel status after timeout check =====
+2024/12/03 16:26:06 Current channel length: 0
+2024/12/03 16:26:06 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status before timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status after timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status before timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status after timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status before timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status after timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status before timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status after timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status before timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status after timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status before timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:07 ===== Channel status after timeout check =====
+2024/12/03 16:26:07 Current channel length: 0
+2024/12/03 16:26:07 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status before timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status after timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status before timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status after timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status before timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status after timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status before timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status after timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status before timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status after timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status before timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:08 ===== Channel status after timeout check =====
+2024/12/03 16:26:08 Current channel length: 0
+2024/12/03 16:26:08 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status before timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:09 ===== Channel status after timeout check =====
+2024/12/03 16:26:09 Current channel length: 0
+2024/12/03 16:26:09 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status before timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status after timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status before timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status after timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status before timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status after timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status before timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status after timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status before timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status after timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status before timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status after timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status before timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:10 ===== Channel status after timeout check =====
+2024/12/03 16:26:10 Current channel length: 0
+2024/12/03 16:26:10 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status before timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:11 ===== Channel status after timeout check =====
+2024/12/03 16:26:11 Current channel length: 0
+2024/12/03 16:26:11 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status before timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:12 ===== Channel status after timeout check =====
+2024/12/03 16:26:12 Current channel length: 0
+2024/12/03 16:26:12 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:13 ===== Channel status before timeout check =====
+2024/12/03 16:26:13 Current channel length: 0
+2024/12/03 16:26:13 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:13 ===== Channel status after timeout check =====
+2024/12/03 16:26:13 Current channel length: 0
+2024/12/03 16:26:13 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:13 ===== Channel status before timeout check =====
+2024/12/03 16:26:13 Current channel length: 0
+2024/12/03 16:26:13 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:13 Worker worker-1733214363175107526-8365 dectected timeout for Map task 0, reassigning
+2024/12/03 16:26:13 Worker worker-1733214363175107526-8365 dectected timeout for Map task 1, reassigning
+2024/12/03 16:26:13 ===== Channel status after timeout check =====
+2024/12/03 16:26:13 Current channel length: 2
+2024/12/03 16:26:13 Channel element 0: Task{Type: Map, ID: 0, Done: false}
+2024/12/03 16:26:13 Channel element 1: Task{Type: Map, ID: 1, Done: false}
+2024/12/03 16:26:13 Channel inspection complete. Found 2 tasks
+2024/12/03 16:26:13 Assigning Map task 0 to worker worker-1733214363175107526-8365
+2024/12/03 16:26:13 worker worker-1733214363175107526-8365 do map task 0 (TaskType: Map, InputFile: ../pg-being_ernest.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:13 Assigning Map task 1 to worker worker-1733214365201269265-6114
+2024/12/03 16:26:13 worker worker-1733214365201269265-6114 do map task 1 (TaskType: Map, InputFile: ../pg-dorian_gray.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:13 ===== Channel status before timeout check =====
+2024/12/03 16:26:13 Current channel length: 0
+2024/12/03 16:26:13 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:13 ===== Channel status after timeout check =====
+2024/12/03 16:26:13 Current channel length: 0
+2024/12/03 16:26:13 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:13 ===== Channel status before timeout check =====
+2024/12/03 16:26:13 Current channel length: 0
+2024/12/03 16:26:13 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:13 ===== Channel status after timeout check =====
+2024/12/03 16:26:13 Current channel length: 0
+2024/12/03 16:26:13 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:14 ===== Channel status before timeout check =====
+2024/12/03 16:26:14 Current channel length: 0
+2024/12/03 16:26:14 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:14 Worker worker-1733214363175067610-1089 dectected timeout for Map task 4, reassigning
+2024/12/03 16:26:14 ===== Channel status after timeout check =====
+2024/12/03 16:26:14 Current channel length: 1
+2024/12/03 16:26:14 Channel element 0: Task{Type: Map, ID: 4, Done: false}
+2024/12/03 16:26:14 Channel inspection complete. Found 1 tasks
+2024/12/03 16:26:14 Assigning Map task 4 to worker worker-1733214364188202761-9098
+2024/12/03 16:26:14 worker worker-1733214364188202761-9098 do map task 4 (TaskType: Map, InputFile: ../pg-huckleberry_finn.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:15 ===== Channel status before timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status after timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status before timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status after timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status before timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status after timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status before timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status after timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status before timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:15 ===== Channel status after timeout check =====
+2024/12/03 16:26:15 Current channel length: 0
+2024/12/03 16:26:15 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:16 ===== Channel status before timeout check =====
+2024/12/03 16:26:16 Current channel length: 0
+2024/12/03 16:26:16 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:16 ===== Channel status after timeout check =====
+2024/12/03 16:26:16 Current channel length: 0
+2024/12/03 16:26:16 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:16 ===== Channel status before timeout check =====
+2024/12/03 16:26:16 Current channel length: 0
+2024/12/03 16:26:16 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:16 ===== Channel status after timeout check =====
+2024/12/03 16:26:16 Current channel length: 0
+2024/12/03 16:26:16 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:17 ===== Channel status before timeout check =====
+2024/12/03 16:26:17 Current channel length: 0
+2024/12/03 16:26:17 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:17 ===== Channel status after timeout check =====
+2024/12/03 16:26:17 Current channel length: 0
+2024/12/03 16:26:17 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:17 ===== Channel status before timeout check =====
+2024/12/03 16:26:17 Current channel length: 0
+2024/12/03 16:26:17 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:17 ===== Channel status after timeout check =====
+2024/12/03 16:26:17 Current channel length: 0
+2024/12/03 16:26:17 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:18 ===== Channel status before timeout check =====
+2024/12/03 16:26:18 Current channel length: 0
+2024/12/03 16:26:18 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:18 ===== Channel status after timeout check =====
+2024/12/03 16:26:18 Current channel length: 0
+2024/12/03 16:26:18 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:18 Worker worker-1733214364188202761-9098 report task, get the mu.lock
+2024/12/03 16:26:18 Worker worker-1733214364188202761-9098 completed Map task 4
+2024/12/03 16:26:18 ===== Channel status before timeout check =====
+2024/12/03 16:26:18 Current channel length: 0
+2024/12/03 16:26:18 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:18 ===== Channel status after timeout check =====
+2024/12/03 16:26:18 Current channel length: 0
+2024/12/03 16:26:18 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:18 ===== Channel status before timeout check =====
+2024/12/03 16:26:18 Current channel length: 0
+2024/12/03 16:26:18 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:18 ===== Channel status after timeout check =====
+2024/12/03 16:26:18 Current channel length: 0
+2024/12/03 16:26:18 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 Worker worker-1733214365201269265-6114 report task, get the mu.lock
+2024/12/03 16:26:19 Worker worker-1733214365201269265-6114 completed Map task 1
+2024/12/03 16:26:19 ===== Channel status before timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status after timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status before timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status after timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status before timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status after timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status before timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status after timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status before timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:19 ===== Channel status after timeout check =====
+2024/12/03 16:26:19 Current channel length: 0
+2024/12/03 16:26:19 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status before timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status after timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status before timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status after timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status before timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status after timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status before timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status after timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status before timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status after timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status before timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:20 ===== Channel status after timeout check =====
+2024/12/03 16:26:20 Current channel length: 0
+2024/12/03 16:26:20 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status before timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status after timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status before timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status after timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status before timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status after timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status before timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status after timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status before timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:21 ===== Channel status after timeout check =====
+2024/12/03 16:26:21 Current channel length: 0
+2024/12/03 16:26:21 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status before timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status after timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status before timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status after timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status before timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status after timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status before timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status after timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status before timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status after timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status before timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:22 ===== Channel status after timeout check =====
+2024/12/03 16:26:22 Current channel length: 0
+2024/12/03 16:26:22 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:23 ===== Channel status before timeout check =====
+2024/12/03 16:26:23 Current channel length: 0
+2024/12/03 16:26:23 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:23 ===== Channel status after timeout check =====
+2024/12/03 16:26:23 Current channel length: 0
+2024/12/03 16:26:23 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:23 ===== Channel status before timeout check =====
+2024/12/03 16:26:23 Current channel length: 0
+2024/12/03 16:26:23 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:23 Worker worker-1733214365201269265-6114 dectected timeout for Map task 0, reassigning
+2024/12/03 16:26:23 ===== Channel status after timeout check =====
+2024/12/03 16:26:23 Current channel length: 1
+2024/12/03 16:26:23 Channel element 0: Task{Type: Map, ID: 0, Done: false}
+2024/12/03 16:26:23 Channel inspection complete. Found 1 tasks
+2024/12/03 16:26:23 Assigning Map task 0 to worker worker-1733214364188202761-9098
+2024/12/03 16:26:23 worker worker-1733214364188202761-9098 do map task 0 (TaskType: Map, InputFile: ../pg-being_ernest.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:23 ===== Channel status before timeout check =====
+2024/12/03 16:26:23 Current channel length: 0
+2024/12/03 16:26:23 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:23 ===== Channel status after timeout check =====
+2024/12/03 16:26:23 Current channel length: 0
+2024/12/03 16:26:23 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status before timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status after timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status before timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status after timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status before timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status after timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status before timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status after timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 New worker registered: worker-1733214384733194629-4824
+2024/12/03 16:26:24 ===== Channel status before timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status after timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status before timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:24 ===== Channel status after timeout check =====
+2024/12/03 16:26:24 Current channel length: 0
+2024/12/03 16:26:24 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status before timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status after timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status before timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status after timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status before timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status after timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status before timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status after timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status before timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status after timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status before timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:25 ===== Channel status after timeout check =====
+2024/12/03 16:26:25 Current channel length: 0
+2024/12/03 16:26:25 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status before timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status after timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status before timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status after timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status before timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status after timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status before timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:26 ===== Channel status after timeout check =====
+2024/12/03 16:26:26 Current channel length: 0
+2024/12/03 16:26:26 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status before timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status after timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status before timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status after timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status before timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status after timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status before timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status after timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status before timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status after timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status before timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status after timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status before timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:27 ===== Channel status after timeout check =====
+2024/12/03 16:26:27 Current channel length: 0
+2024/12/03 16:26:27 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status before timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status after timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status before timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status after timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status before timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status after timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status before timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status after timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status before timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:28 ===== Channel status after timeout check =====
+2024/12/03 16:26:28 Current channel length: 0
+2024/12/03 16:26:28 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status before timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status after timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status before timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status after timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status before timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status after timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status before timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:29 ===== Channel status after timeout check =====
+2024/12/03 16:26:29 Current channel length: 0
+2024/12/03 16:26:29 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status before timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status after timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status before timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status after timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status before timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status after timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status before timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status after timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status before timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status after timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status before timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status after timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status before timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:30 ===== Channel status after timeout check =====
+2024/12/03 16:26:30 Current channel length: 0
+2024/12/03 16:26:30 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status before timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status after timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status before timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status after timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status before timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status after timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status before timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status after timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status before timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status after timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status before timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:31 ===== Channel status after timeout check =====
+2024/12/03 16:26:31 Current channel length: 0
+2024/12/03 16:26:31 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status before timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:32 ===== Channel status after timeout check =====
+2024/12/03 16:26:32 Current channel length: 0
+2024/12/03 16:26:32 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status before timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status after timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status before timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status after timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status before timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status after timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status before timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status after timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status before timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status after timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status before timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status after timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 ===== Channel status before timeout check =====
+2024/12/03 16:26:33 Current channel length: 0
+2024/12/03 16:26:33 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:33 Worker worker-1733214384733194629-4824 dectected timeout for Map task 0, reassigning
+2024/12/03 16:26:33 ===== Channel status after timeout check =====
+2024/12/03 16:26:33 Current channel length: 1
+2024/12/03 16:26:33 Channel element 0: Task{Type: Map, ID: 0, Done: false}
+2024/12/03 16:26:33 Channel inspection complete. Found 1 tasks
+2024/12/03 16:26:34 Assigning Map task 0 to worker worker-1733214363175067610-1089
+2024/12/03 16:26:34 worker worker-1733214363175067610-1089 do map task 0 (TaskType: Map, InputFile: ../pg-being_ernest.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:34 ===== Channel status before timeout check =====
+2024/12/03 16:26:34 Current channel length: 0
+2024/12/03 16:26:34 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:34 ===== Channel status after timeout check =====
+2024/12/03 16:26:34 Current channel length: 0
+2024/12/03 16:26:34 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:34 ===== Channel status before timeout check =====
+2024/12/03 16:26:34 Current channel length: 0
+2024/12/03 16:26:34 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:34 ===== Channel status after timeout check =====
+2024/12/03 16:26:34 Current channel length: 0
+2024/12/03 16:26:34 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:34 ===== Channel status before timeout check =====
+2024/12/03 16:26:34 Current channel length: 0
+2024/12/03 16:26:34 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:34 ===== Channel status after timeout check =====
+2024/12/03 16:26:34 Current channel length: 0
+2024/12/03 16:26:34 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 New worker registered: worker-1733214395072060280-2801
+2024/12/03 16:26:35 ===== Channel status before timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 ===== Channel status after timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 ===== Channel status before timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 ===== Channel status after timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 ===== Channel status before timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 ===== Channel status after timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 ===== Channel status before timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:35 ===== Channel status after timeout check =====
+2024/12/03 16:26:35 Current channel length: 0
+2024/12/03 16:26:35 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status before timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status after timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status before timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status after timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status before timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status after timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status before timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status after timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status before timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:36 ===== Channel status after timeout check =====
+2024/12/03 16:26:36 Current channel length: 0
+2024/12/03 16:26:36 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status before timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status after timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status before timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status after timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status before timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status after timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status before timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status after timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status before timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status after timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status before timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status after timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status before timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:37 ===== Channel status after timeout check =====
+2024/12/03 16:26:37 Current channel length: 0
+2024/12/03 16:26:37 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status before timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status after timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status before timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status after timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status before timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status after timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status before timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status after timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status before timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:38 ===== Channel status after timeout check =====
+2024/12/03 16:26:38 Current channel length: 0
+2024/12/03 16:26:38 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status before timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:39 ===== Channel status after timeout check =====
+2024/12/03 16:26:39 Current channel length: 0
+2024/12/03 16:26:39 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status before timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status after timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status before timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status after timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status before timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status after timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status before timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:40 ===== Channel status after timeout check =====
+2024/12/03 16:26:40 Current channel length: 0
+2024/12/03 16:26:40 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status before timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:41 ===== Channel status after timeout check =====
+2024/12/03 16:26:41 Current channel length: 0
+2024/12/03 16:26:41 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status before timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status after timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status before timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status after timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status before timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status after timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status before timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:42 ===== Channel status after timeout check =====
+2024/12/03 16:26:42 Current channel length: 0
+2024/12/03 16:26:42 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status before timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status after timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status before timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status after timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status before timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status after timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status before timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status after timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status before timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status after timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status before timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:43 ===== Channel status after timeout check =====
+2024/12/03 16:26:43 Current channel length: 0
+2024/12/03 16:26:43 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:44 ===== Channel status before timeout check =====
+2024/12/03 16:26:44 Current channel length: 0
+2024/12/03 16:26:44 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:44 Worker worker-1733214384733194629-4824 dectected timeout for Map task 0, reassigning
+2024/12/03 16:26:44 ===== Channel status after timeout check =====
+2024/12/03 16:26:44 Current channel length: 1
+2024/12/03 16:26:44 Channel element 0: Task{Type: Map, ID: 0, Done: false}
+2024/12/03 16:26:44 Channel inspection complete. Found 1 tasks
+2024/12/03 16:26:44 Assigning Map task 0 to worker worker-1733214365201269265-6114
+2024/12/03 16:26:44 worker worker-1733214365201269265-6114 do map task 0 (TaskType: Map, InputFile: ../pg-being_ernest.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:44 ===== Channel status before timeout check =====
+2024/12/03 16:26:44 Current channel length: 0
+2024/12/03 16:26:44 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:44 ===== Channel status after timeout check =====
+2024/12/03 16:26:44 Current channel length: 0
+2024/12/03 16:26:44 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 ===== Channel status before timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 ===== Channel status after timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 ===== Channel status before timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 ===== Channel status after timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 ===== Channel status before timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 ===== Channel status after timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 New worker registered: worker-1733214405888937487-8743
+2024/12/03 16:26:45 ===== Channel status before timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:45 ===== Channel status after timeout check =====
+2024/12/03 16:26:45 Current channel length: 0
+2024/12/03 16:26:45 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status before timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status after timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status before timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status after timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status before timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status after timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status before timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:46 ===== Channel status after timeout check =====
+2024/12/03 16:26:46 Current channel length: 0
+2024/12/03 16:26:46 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status before timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status after timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status before timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status after timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status before timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status after timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status before timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status after timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status before timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:47 ===== Channel status after timeout check =====
+2024/12/03 16:26:47 Current channel length: 0
+2024/12/03 16:26:47 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status before timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status after timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status before timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status after timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status before timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status after timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status before timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status after timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status before timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:48 ===== Channel status after timeout check =====
+2024/12/03 16:26:48 Current channel length: 0
+2024/12/03 16:26:48 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status before timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status after timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status before timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status after timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status before timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status after timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status before timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status after timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status before timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status after timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status before timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status after timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status before timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:49 ===== Channel status after timeout check =====
+2024/12/03 16:26:49 Current channel length: 0
+2024/12/03 16:26:49 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status before timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status after timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status before timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status after timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status before timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status after timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status before timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:50 ===== Channel status after timeout check =====
+2024/12/03 16:26:50 Current channel length: 0
+2024/12/03 16:26:50 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status before timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status after timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status before timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status after timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status before timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status after timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status before timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status after timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status before timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:51 ===== Channel status after timeout check =====
+2024/12/03 16:26:51 Current channel length: 0
+2024/12/03 16:26:51 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status before timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status after timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status before timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status after timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status before timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status after timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status before timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status after timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status before timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status after timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status before timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status after timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status before timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:52 ===== Channel status after timeout check =====
+2024/12/03 16:26:52 Current channel length: 0
+2024/12/03 16:26:52 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status before timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status after timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status before timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status after timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status before timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status after timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status before timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status after timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status before timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status after timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status before timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:53 ===== Channel status after timeout check =====
+2024/12/03 16:26:53 Current channel length: 0
+2024/12/03 16:26:53 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status before timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status after timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status before timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status after timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status before timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status after timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status before timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status after timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status before timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status after timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 ===== Channel status before timeout check =====
+2024/12/03 16:26:54 Current channel length: 0
+2024/12/03 16:26:54 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:54 Worker worker-1733214395072060280-2801 dectected timeout for Map task 0, reassigning
+2024/12/03 16:26:54 ===== Channel status after timeout check =====
+2024/12/03 16:26:54 Current channel length: 1
+2024/12/03 16:26:54 Channel element 0: Task{Type: Map, ID: 0, Done: false}
+2024/12/03 16:26:54 Channel inspection complete. Found 1 tasks
+2024/12/03 16:26:54 Assigning Map task 0 to worker worker-1733214395072060280-2801
+2024/12/03 16:26:54 worker worker-1733214395072060280-2801 do map task 0 (TaskType: Map, InputFile: ../pg-being_ernest.txt, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:26:55 ===== Channel status before timeout check =====
+2024/12/03 16:26:55 Current channel length: 0
+2024/12/03 16:26:55 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:55 ===== Channel status after timeout check =====
+2024/12/03 16:26:55 Current channel length: 0
+2024/12/03 16:26:55 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:55 ===== Channel status before timeout check =====
+2024/12/03 16:26:55 Current channel length: 0
+2024/12/03 16:26:55 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:55 ===== Channel status after timeout check =====
+2024/12/03 16:26:55 Current channel length: 0
+2024/12/03 16:26:55 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:55 ===== Channel status before timeout check =====
+2024/12/03 16:26:55 Current channel length: 0
+2024/12/03 16:26:55 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:55 ===== Channel status after timeout check =====
+2024/12/03 16:26:55 Current channel length: 0
+2024/12/03 16:26:55 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status before timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status after timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status before timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status after timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status before timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status after timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status before timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:56 ===== Channel status after timeout check =====
+2024/12/03 16:26:56 Current channel length: 0
+2024/12/03 16:26:56 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status before timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status after timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status before timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status after timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status before timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status after timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status before timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status after timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status before timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:57 ===== Channel status after timeout check =====
+2024/12/03 16:26:57 Current channel length: 0
+2024/12/03 16:26:57 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:58 ===== Channel status before timeout check =====
+2024/12/03 16:26:58 Current channel length: 0
+2024/12/03 16:26:58 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:58 ===== Channel status after timeout check =====
+2024/12/03 16:26:58 Current channel length: 0
+2024/12/03 16:26:58 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:58 ===== Channel status before timeout check =====
+2024/12/03 16:26:58 Current channel length: 0
+2024/12/03 16:26:58 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:58 ===== Channel status after timeout check =====
+2024/12/03 16:26:58 Current channel length: 0
+2024/12/03 16:26:58 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:58 ===== Channel status before timeout check =====
+2024/12/03 16:26:58 Current channel length: 0
+2024/12/03 16:26:58 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:58 ===== Channel status after timeout check =====
+2024/12/03 16:26:58 Current channel length: 0
+2024/12/03 16:26:58 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status before timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status after timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status before timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status after timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status before timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status after timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status before timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status after timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status before timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:26:59 ===== Channel status after timeout check =====
+2024/12/03 16:26:59 Current channel length: 0
+2024/12/03 16:26:59 Channel inspection complete. Found 0 tasks
+2024/12/03 16:27:00 ===== Channel status before timeout check =====
+2024/12/03 16:27:00 Current channel length: 0
+2024/12/03 16:27:00 Channel inspection complete. Found 0 tasks
+2024/12/03 16:27:00 ===== Channel status after timeout check =====
+2024/12/03 16:27:00 Current channel length: 0
+2024/12/03 16:27:00 Channel inspection complete. Found 0 tasks
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 report task, get the mu.lock
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 completed Map task 0
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect all map tasks completed, moving to reduce phase
+2024/12/03 16:27:00 Current channel length: 0
+2024/12/03 16:27:00 Channel inspection complete. Found 0 tasks
+2024/12/03 16:27:00 Current channel length: 10
+2024/12/03 16:27:00 Channel element 0: Task{Type: Reduce, ID: 0, Done: false}
+2024/12/03 16:27:00 Channel element 1: Task{Type: Reduce, ID: 1, Done: false}
+2024/12/03 16:27:00 Channel element 2: Task{Type: Reduce, ID: 2, Done: false}
+2024/12/03 16:27:00 Channel element 3: Task{Type: Reduce, ID: 3, Done: false}
+2024/12/03 16:27:00 Channel element 4: Task{Type: Reduce, ID: 4, Done: false}
+2024/12/03 16:27:00 Channel element 5: Task{Type: Reduce, ID: 5, Done: false}
+2024/12/03 16:27:00 Channel element 6: Task{Type: Reduce, ID: 6, Done: false}
+2024/12/03 16:27:00 Channel element 7: Task{Type: Reduce, ID: 7, Done: false}
+2024/12/03 16:27:00 Channel element 8: Task{Type: Reduce, ID: 8, Done: false}
+2024/12/03 16:27:00 Channel element 9: Task{Type: Reduce, ID: 9, Done: false}
+2024/12/03 16:27:00 Channel inspection complete. Found 10 tasks
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 8 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 9 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 11 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 12 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 14 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Assigning Reduce task 0 to worker worker-1733214405888937487-8743
+2024/12/03 16:27:00 worker worker-1733214405888937487-8743 do reduce task 0 (TaskType: Reduce, InputFile: mr-*-0, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 worker worker-1733214405888937487-8743 finish reduce task 0 (TaskType: Reduce, InputFile: mr-*-0, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 report task, get the mu.lock
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 completed Reduce task 0
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 9 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 11 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 12 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 14 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Assigning Reduce task 1 to worker worker-1733214405888937487-8743
+2024/12/03 16:27:00 worker worker-1733214405888937487-8743 do reduce task 1 (TaskType: Reduce, InputFile: mr-*-1, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 worker worker-1733214405888937487-8743 finish reduce task 1 (TaskType: Reduce, InputFile: mr-*-1, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 report task, get the mu.lock
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 completed Reduce task 1
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 11 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 12 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 14 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214405888937487-8743 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Assigning Reduce task 2 to worker worker-1733214405888937487-8743
+2024/12/03 16:27:00 worker worker-1733214405888937487-8743 do reduce task 2 (TaskType: Reduce, InputFile: mr-*-2, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 11 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 12 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 14 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Assigning Reduce task 3 to worker worker-1733214395072060280-2801
+2024/12/03 16:27:00 worker worker-1733214395072060280-2801 do reduce task 3 (TaskType: Reduce, InputFile: mr-*-3, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 worker worker-1733214395072060280-2801 finish reduce task 3 (TaskType: Reduce, InputFile: mr-*-3, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 report task, get the mu.lock
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 completed Reduce task 3
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 12 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 14 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Assigning Reduce task 4 to worker worker-1733214395072060280-2801
+2024/12/03 16:27:00 worker worker-1733214395072060280-2801 do reduce task 4 (TaskType: Reduce, InputFile: mr-*-4, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 worker worker-1733214395072060280-2801 finish reduce task 4 (TaskType: Reduce, InputFile: mr-*-4, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 report task, get the mu.lock
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 completed Reduce task 4
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 14 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Worker worker-1733214395072060280-2801 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:00 Assigning Reduce task 5 to worker worker-1733214395072060280-2801
+2024/12/03 16:27:00 worker worker-1733214395072060280-2801 do reduce task 5 (TaskType: Reduce, InputFile: mr-*-5, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 14 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Assigning Reduce task 6 to worker worker-1733214384733194629-4824
+2024/12/03 16:27:01 worker worker-1733214384733194629-4824 do reduce task 6 (TaskType: Reduce, InputFile: mr-*-6, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:01 worker worker-1733214384733194629-4824 finish reduce task 6 (TaskType: Reduce, InputFile: mr-*-6, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 report task, get the mu.lock
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 completed Reduce task 6
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 15 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Assigning Reduce task 7 to worker worker-1733214384733194629-4824
+2024/12/03 16:27:01 worker worker-1733214384733194629-4824 do reduce task 7 (TaskType: Reduce, InputFile: mr-*-7, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:01 worker worker-1733214384733194629-4824 finish reduce task 7 (TaskType: Reduce, InputFile: mr-*-7, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 report task, get the mu.lock
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 completed Reduce task 7
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 16 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Assigning Reduce task 8 to worker worker-1733214384733194629-4824
+2024/12/03 16:27:01 worker worker-1733214384733194629-4824 do reduce task 8 (TaskType: Reduce, InputFile: mr-*-8, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:01 worker worker-1733214384733194629-4824 finish reduce task 8 (TaskType: Reduce, InputFile: mr-*-8, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 report task, get the mu.lock
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 completed Reduce task 8
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 10 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 13 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Worker worker-1733214384733194629-4824 detect Task 17 not completed: Done=false, Status=0, time=0001-01-01 00:00:00 +0000 UTC
+2024/12/03 16:27:01 Assigning Reduce task 9 to worker worker-1733214384733194629-4824
+2024/12/03 16:27:01 worker worker-1733214384733194629-4824 do reduce task 9 (TaskType: Reduce, InputFile: mr-*-9, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:03 worker worker-1733214395072060280-2801 finish reduce task 5 (TaskType: Reduce, InputFile: mr-*-5, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:03 dialing:dial unix /var/tmp/5840-mr-1000: connect: connection refused
+2024/12/03 16:27:03 worker worker-1733214384733194629-4824 finish reduce task 9 (TaskType: Reduce, InputFile: mr-*-9, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:03 dialing:dial unix /var/tmp/5840-mr-1000: connect: connection refused
+2024/12/03 16:27:07 worker worker-1733214405888937487-8743 finish reduce task 2 (TaskType: Reduce, InputFile: mr-*-2, NReduce: 10, NMap: 8, Notified: true, Done: false)
+2024/12/03 16:27:07 dialing:dial unix /var/tmp/5840-mr-1000: connect: connection refused
+--- crash test: PASS
+*** PASSED ALL TESTS
