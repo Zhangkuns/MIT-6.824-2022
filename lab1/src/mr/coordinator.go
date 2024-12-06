@@ -2,12 +2,14 @@ package mr
 
 import (
 	"fmt"
+	"io"
 	"log"
 	"math/rand"
 	"net"
 	"net/http"
 	"net/rpc"
 	"os"
+	"path/filepath"
 	"sync"
 	"time"
 )
@@ -23,6 +25,7 @@ type Coordinator struct {
 
 	// 文件相关
 	files []string // 输入文件列表
+	final bool     // 最终任务是否执行完成
 
 	// 并发控制
 	mu   sync.Mutex // 互斥锁保护共享数据
@@ -148,7 +151,96 @@ func (c *Coordinator) Done() bool {
 	// Your code here.
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	return c.done
+	log.Printf("Checking if coordinator is done...")
+	if c.done == false {
+		return false
+	} else {
+		// c.done == true说明任务已经完成
+		// 处理所有生成的文件
+		if c.final == false {
+			if err := c.finalizeOutput(); err != nil {
+				log.Printf("Error finalizing output: %v", err)
+			}
+		}
+		return true
+	}
+}
+
+// 选择最佳输出文件并整理最终结果
+func (c *Coordinator) finalizeOutput() error {
+	log.Printf("Finalizing output files...")
+	// 对每个 reduce 任务（0到nReduce-1）进行处理
+	for taskId := 0; taskId < c.nReduce; taskId++ {
+		// 使用 filepath.Glob 来匹配符合格式的所有文件
+		// 匹配模式为 "mr-out-{taskId}-*"，这会匹配所有该任务ID的输出文件
+		pattern := fmt.Sprintf("mr-out-%d-*", taskId)
+		files, err := filepath.Glob(pattern)
+		if err != nil {
+			return fmt.Errorf("error finding output files for task %d: %v", taskId, err)
+		}
+
+		// 如果没有找到任何文件，说明这个任务可能出现了问题
+		if len(files) == 0 {
+			return fmt.Errorf("no output files found for reduce task %d", taskId)
+		}
+
+		// 查找最大（最完整）的文件
+		var bestFile string
+		var maxSize int64 = -1
+
+		// 遍历所有匹配的文件，找出最大的有效文件
+		for _, file := range files {
+			info, err := os.Stat(file)
+			if err != nil {
+				// 记录错误但继续处理其他文件
+				log.Printf("Warning: Cannot stat file %s: %v", file, err)
+				continue
+			}
+
+			// 检查文件的完整性，并更新最大文件
+			if info.Size() > maxSize {
+				maxSize = info.Size()
+				bestFile = file
+			}
+		}
+
+		// 如果没有找到有效的文件，返回错误
+		if bestFile == "" {
+			return fmt.Errorf("no valid output file found for reduce task %d", taskId)
+		}
+
+		// 将最佳文件复制到最终位置
+		finalName := fmt.Sprintf("mr-out-%d", taskId)
+		// 开始文件复制操作
+		sourceFile, err := os.Open(bestFile)
+		if err != nil {
+			return fmt.Errorf("failed to open source file %s: %v", bestFile, err)
+		}
+		defer sourceFile.Close()
+
+		// 创建目标文件
+		destFile, err := os.Create(finalName)
+		if err != nil {
+			return fmt.Errorf("failed to create destination file %s: %v", finalName, err)
+		}
+		defer destFile.Close()
+
+		// 执行复制操作
+		_, err = io.Copy(destFile, sourceFile)
+		if err != nil {
+			return fmt.Errorf("failed to copy file contents from %s to %s: %v",
+				bestFile, finalName, err)
+		}
+		// 清理该任务的所有临时文件
+		for _, file := range files {
+			// 尝试删除文件，但不阻止处理其他文件
+			if err := os.Remove(file); err != nil {
+				log.Printf("Warning: Failed to remove temporary file %s: %v", file, err)
+			}
+		}
+	}
+	c.final = true
+	return nil
 }
 
 // MakeCoordinator
@@ -174,6 +266,7 @@ func MakeCoordinator(files []string, nReduce int) *Coordinator {
 
 		// 设置超时时间（比如10秒）
 		timeout: 10 * time.Second,
+		final:   false,
 	}
 	// 初始化任务状态
 	// 创建Map任务
@@ -199,6 +292,16 @@ func MakeCoordinator(files []string, nReduce int) *Coordinator {
 	// Your code here.
 
 	c.server()
+	// 阻塞，等待最后的文件选择
+	for c.done == false {
+		time.Sleep(time.Second)
+	}
+	time.Sleep(3 * time.Second)
+	c.Done()
+	//// 处理所有生成的文件
+	//if err := c.finalizeOutput(); err != nil {
+	//	log.Printf("Error finalizing output: %v", err)
+	//}
 	return &c
 }
 
@@ -263,8 +366,13 @@ func (c *Coordinator) GetTask(args *GetTaskArgs, reply *GetTaskReply) error {
 
 	// 检查是否已完成
 	if c.done {
-		log.Printf("Coordinator is done, worker %s should exit", args.WorkerId)
-		reply.Done = true
+		if c.final == true {
+			log.Printf("Coordinator is done, worker %s should exit", args.WorkerId)
+			reply.Done = true
+			return nil
+		}
+		log.Printf("Coordinator is done, but not all files are finalized, worker %s should wait", args.WorkerId)
+		reply.TaskType = InvalidPhase
 		return nil
 	}
 
@@ -274,7 +382,8 @@ func (c *Coordinator) GetTask(args *GetTaskArgs, reply *GetTaskReply) error {
 		if c.isAllReduceTasksCompleted(args.WorkerId) {
 			log.Printf("All reduce tasks completed")
 			c.done = true
-			reply.Done = true
+			//reply.Done = true
+			reply.TaskType = InvalidPhase
 			return nil
 		}
 	}
@@ -352,8 +461,9 @@ func (c *Coordinator) GetTask(args *GetTaskArgs, reply *GetTaskReply) error {
 				return nil
 			} else if c.taskPhase == ReducePhase {
 				log.Printf("Worker %s detect all reduce tasks completed", args.WorkerId)
+				reply.TaskType = InvalidPhase
 				c.done = true
-				reply.Done = true
+				//reply.Done = true
 				return nil
 			}
 		}

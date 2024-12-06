@@ -50,6 +50,7 @@ func Worker(mapf func(string, string) []KeyValue, reducef func(string, []string)
 		// 请求任务
 		task := getTask(workerId)
 		if task.Done {
+			log.Printf("worker %s exit", workerId)
 			break
 		}
 		if task.TaskType == InvalidPhase {
@@ -191,7 +192,11 @@ func doReduce(workerId string, task GetTaskReply, reducef func(string, []string)
 	sort.Sort(ByKey(intermediate))
 
 	// 创建输出文件
-	outFile, _ := os.Create(fmt.Sprintf("mr-out-%d", task.TaskId))
+	// 每次创建的文件给与不同的任务ID和时间戳
+	timestamp := time.Now().UnixNano()
+	outputFilename := fmt.Sprintf("mr-out-%d-%s-%d", task.TaskId, workerId, timestamp)
+	// outFile, _ := os.Create(fmt.Sprintf("mr-out-%d", task.TaskId))
+	outFile, _ := os.Create(outputFilename)
 	defer func(outFile *os.File) {
 		err := outFile.Close()
 		if err != nil {
