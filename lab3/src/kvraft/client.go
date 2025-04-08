@@ -53,7 +53,7 @@ type Clerk struct {
 	requestId      int64 // request id
 	LastLeader     int   // last leader Id
 }
-
+// random seed
 func nrand() int64 {
 	max := big.NewInt(int64(1) << 62)
 	bigx, _ := rand.Int(rand.Reader, max)
