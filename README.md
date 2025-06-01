@@ -14,7 +14,7 @@ To support the Percolator model, introduced a Timestamp Oracle (TSO) server, whi
 
 ## System Architecture
 The overall workflow is as follows:
-![[shardkv.png]]
+![Key/Value system architecture](shardkv.png)
 Client: Queries the shard controller for the latest configuration, identifies the shard for a given key, and sends requests to the corresponding replica group.
 Server: Periodically queries the shard controller to ensure configuration updates.
 Client Transactions: Requests a timestamp from the TSO server for each transaction.
